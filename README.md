@@ -57,3 +57,53 @@ Bill Generation:
 Bills are automatically saved as text files with timestamps
 
 Files are named like grocery_bill_DD-MM-YYYY_HH-MM-SS.txt
+Requirements
+Python 3.x
+
+No additional libraries required (uses built-in modules only)
+
+How to Run
+Save the script as indian_grocery_calculator.py
+
+Run from command line:
+
+text
+python indian_grocery_calculator.py
+Sample Output Files
+The program generates bills in this format:
+
+text
+INDIAN GROCERY BILL
+Date: 04/07/2023 14:30:45
+
+VEGETABLES
+  Tomatoes 2.0 x ₹30 ₹60
+  Onions 1.0 x ₹40 ₹40
+  Subtotal: ₹100
+  Budget: ₹500 Remaining: ₹400
+
+DAIRY
+  Milk 2.0 x ₹25 ₹50
+  Subtotal: ₹50
+  Budget: ₹200 Remaining: ₹150
+
+GRAND TOTAL: ₹150
+Notes
+All monetary values are in Indian Rupees (₹)
+
+Quantities can be entered in kg/pcs/ltr as appropriate
+
+The program handles decimal values for precise calculations
+
+Data is not saved between sessions (for persistent storage, consider adding database functionality)
+
+Future Enhancements
+Add monthly tracking and reporting
+
+Implement data persistence (JSON/CSV/database)
+
+Add graphical budget visualization
+
+Include tax calculations
+
+Support for multiple family members' shopping
